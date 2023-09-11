@@ -8,7 +8,7 @@ int subtractProductAndSum(int n){
     while(n!=0){
         int digit = n%10;
         prod = prod*digit;
-        sum = sum + digit;
+        sum = sum + digit; 
         n = n/10;
     }
     int answer = prod - sum;
